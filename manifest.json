@@ -1,0 +1,25 @@
+{
+  "name": "Black Book Betterment",
+  "description": "Black Book Betterment adds the ability to get an estimated value from the average sale price chart on canadianblackbook.com",
+  "version": "0.2",
+  "manifest_version": 2,
+  "icons": {
+    "16": "icon16.png",
+    "48": "icon48.png",
+    "64": "icon64.png",
+    "128": "icon128.png"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "http://www.canadianblackbook.com/black-book-values/index/display/neworused/*"
+      ],
+      "css": [
+        "bbb.css"
+      ],
+      "js": [
+        "add_value.js"
+      ]
+    }
+  ]
+}

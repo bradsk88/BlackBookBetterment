@@ -1,0 +1,33 @@
+#betterment-in {
+    width: 210px;
+    text-align: center;
+    box-shadow: none;
+    border-image-source: initial;
+    border-image-slice: initial;
+    border-image-width: initial;
+    border-image-outset: initial;
+    border-image-repeat: initial;
+    font-size: 1.125em;
+    font-family: arial, verdana, tahoma, helvetica, serif;
+    border-width: initial;
+    border-style: none;
+    border-color: initial;
+    background: white;
+}
+
+.estimatebutton {
+    height: 40px;
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+    width: 150px;
+    border-image-source: initial;
+    border-image-slice: initial;
+    border-image-width: initial;
+    border-image-outset: initial;
+    border-image-repeat: initial;
+    background: rgb(238, 238, 238);
+    border-width: 2px 2px 2px 0px;
+    border-style: solid solid solid;
+    border-color: rgb(229, 229, 229) rgb(229, 229, 229) rgb(229, 229, 229);
+    border-left: 0px;
+}
